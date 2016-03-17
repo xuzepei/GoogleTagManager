@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		093A1B681C857333004409FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 093A1B671C857333004409FE /* main.m */; };
+		093A1B6B1C857333004409FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 093A1B6A1C857333004409FE /* AppDelegate.m */; };
+		093A1B6E1C857333004409FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093A1B6D1C857333004409FE /* ViewController.m */; };
+		093A1B711C857333004409FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093A1B6F1C857333004409FE /* Main.storyboard */; };
+		093A1B731C857333004409FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093A1B721C857333004409FE /* Assets.xcassets */; };
+		093A1B761C857333004409FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093A1B741C857333004409FE /* LaunchScreen.storyboard */; };
+		093A1B891C85739A004409FE /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 093A1B881C85739A004409FE /* libGoogleAnalyticsServices.a */; settings = {ASSET_TAGS = (); }; };
+		093A1B8B1C8573A3004409FE /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 093A1B8A1C8573A3004409FE /* libAdIdAccess.a */; settings = {ASSET_TAGS = (); }; };
+		093A1B921C8573E3004409FE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093A1B911C8573E3004409FE /* CoreData.framework */; };
+		093A1B941C8573F0004409FE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093A1B931C8573F0004409FE /* SystemConfiguration.framework */; };
+		093A1B961C8573F7004409FE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 093A1B951C8573F7004409FE /* libz.tbd */; };
+		093A1B981C857404004409FE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 093A1B971C857404004409FE /* libsqlite3.tbd */; };
+		093A1B9A1C857473004409FE /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093A1B991C857473004409FE /* AdSupport.framework */; };
+		09B91C481C8681B300E71250 /* MyFunctionCallTagHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B91C471C8681B300E71250 /* MyFunctionCallTagHandler.m */; settings = {ASSET_TAGS = (); }; };
+		09B91C4B1C86975F00E71250 /* MyFunctionCallMacroHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B91C4A1C86975F00E71250 /* MyFunctionCallMacroHandler.m */; settings = {ASSET_TAGS = (); }; };
+		09B91C4E1C86BD8300E71250 /* GTM-PG7WXD in Resources */ = {isa = PBXBuildFile; fileRef = 09B91C4C1C86BD1100E71250 /* GTM-PG7WXD */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		093A1B631C857333004409FE /* GoogleTagManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleTagManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		093A1B671C857333004409FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		093A1B691C857333004409FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		093A1B6A1C857333004409FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		093A1B6C1C857333004409FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		093A1B6D1C857333004409FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		093A1B701C857333004409FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		093A1B721C857333004409FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		093A1B751C857333004409FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		093A1B771C857333004409FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093A1B7E1C857390004409FE /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		093A1B7F1C857390004409FE /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		093A1B801C857390004409FE /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		093A1B811C857390004409FE /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		093A1B821C857390004409FE /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		093A1B831C857390004409FE /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		093A1B841C857390004409FE /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		093A1B851C857390004409FE /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		093A1B861C857390004409FE /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		093A1B871C857390004409FE /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		093A1B881C85739A004409FE /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		093A1B8A1C8573A3004409FE /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccess.a; sourceTree = "<group>"; };
+		093A1B8C1C8573BB004409FE /* TAGContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGContainer.h; sourceTree = "<group>"; };
+		093A1B8D1C8573BB004409FE /* TAGContainerOpener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGContainerOpener.h; sourceTree = "<group>"; };
+		093A1B8E1C8573BB004409FE /* TAGDataLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGDataLayer.h; sourceTree = "<group>"; };
+		093A1B8F1C8573BB004409FE /* TAGLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGLogger.h; sourceTree = "<group>"; };
+		093A1B901C8573BB004409FE /* TAGManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGManager.h; sourceTree = "<group>"; };
+		093A1B911C8573E3004409FE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		093A1B931C8573F0004409FE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		093A1B951C8573F7004409FE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		093A1B971C857404004409FE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		093A1B991C857473004409FE /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		09B91C461C8681B300E71250 /* MyFunctionCallTagHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFunctionCallTagHandler.h; sourceTree = "<group>"; };
+		09B91C471C8681B300E71250 /* MyFunctionCallTagHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFunctionCallTagHandler.m; sourceTree = "<group>"; };
+		09B91C491C86975F00E71250 /* MyFunctionCallMacroHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFunctionCallMacroHandler.h; sourceTree = "<group>"; };
+		09B91C4A1C86975F00E71250 /* MyFunctionCallMacroHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFunctionCallMacroHandler.m; sourceTree = "<group>"; };
+		09B91C4C1C86BD1100E71250 /* GTM-PG7WXD */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTM-PG7WXD"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		093A1B601C857333004409FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093A1B9A1C857473004409FE /* AdSupport.framework in Frameworks */,
+				093A1B981C857404004409FE /* libsqlite3.tbd in Frameworks */,
+				093A1B961C8573F7004409FE /* libz.tbd in Frameworks */,
+				093A1B941C8573F0004409FE /* SystemConfiguration.framework in Frameworks */,
+				093A1B921C8573E3004409FE /* CoreData.framework in Frameworks */,
+				093A1B891C85739A004409FE /* libGoogleAnalyticsServices.a in Frameworks */,
+				093A1B8B1C8573A3004409FE /* libAdIdAccess.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		093A1B5A1C857333004409FE = {
+			isa = PBXGroup;
+			children = (
+				093A1B991C857473004409FE /* AdSupport.framework */,
+				093A1B971C857404004409FE /* libsqlite3.tbd */,
+				093A1B951C8573F7004409FE /* libz.tbd */,
+				093A1B931C8573F0004409FE /* SystemConfiguration.framework */,
+				093A1B911C8573E3004409FE /* CoreData.framework */,
+				093A1B651C857333004409FE /* GoogleTagManagerDemo */,
+				093A1B641C857333004409FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		093A1B641C857333004409FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				093A1B631C857333004409FE /* GoogleTagManagerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		093A1B651C857333004409FE /* GoogleTagManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				093A1B7D1C857390004409FE /* Library */,
+				093A1B691C857333004409FE /* AppDelegate.h */,
+				093A1B6A1C857333004409FE /* AppDelegate.m */,
+				093A1B6C1C857333004409FE /* ViewController.h */,
+				093A1B6D1C857333004409FE /* ViewController.m */,
+				09B91C461C8681B300E71250 /* MyFunctionCallTagHandler.h */,
+				09B91C471C8681B300E71250 /* MyFunctionCallTagHandler.m */,
+				09B91C491C86975F00E71250 /* MyFunctionCallMacroHandler.h */,
+				09B91C4A1C86975F00E71250 /* MyFunctionCallMacroHandler.m */,
+				093A1B6F1C857333004409FE /* Main.storyboard */,
+				093A1B721C857333004409FE /* Assets.xcassets */,
+				093A1B741C857333004409FE /* LaunchScreen.storyboard */,
+				093A1B771C857333004409FE /* Info.plist */,
+				09B91C4C1C86BD1100E71250 /* GTM-PG7WXD */,
+				093A1B661C857333004409FE /* Supporting Files */,
+			);
+			path = GoogleTagManagerDemo;
+			sourceTree = "<group>";
+		};
+		093A1B661C857333004409FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				093A1B671C857333004409FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		093A1B7D1C857390004409FE /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				093A1B8C1C8573BB004409FE /* TAGContainer.h */,
+				093A1B8D1C8573BB004409FE /* TAGContainerOpener.h */,
+				093A1B8E1C8573BB004409FE /* TAGDataLayer.h */,
+				093A1B8F1C8573BB004409FE /* TAGLogger.h */,
+				093A1B901C8573BB004409FE /* TAGManager.h */,
+				093A1B7E1C857390004409FE /* GAI.h */,
+				093A1B7F1C857390004409FE /* GAIDictionaryBuilder.h */,
+				093A1B801C857390004409FE /* GAIEcommerceFields.h */,
+				093A1B811C857390004409FE /* GAIEcommerceProduct.h */,
+				093A1B821C857390004409FE /* GAIEcommerceProductAction.h */,
+				093A1B831C857390004409FE /* GAIEcommercePromotion.h */,
+				093A1B841C857390004409FE /* GAIFields.h */,
+				093A1B851C857390004409FE /* GAILogger.h */,
+				093A1B861C857390004409FE /* GAITrackedViewController.h */,
+				093A1B871C857390004409FE /* GAITracker.h */,
+				093A1B8A1C8573A3004409FE /* libAdIdAccess.a */,
+				093A1B881C85739A004409FE /* libGoogleAnalyticsServices.a */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		093A1B621C857333004409FE /* GoogleTagManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093A1B7A1C857333004409FE /* Build configuration list for PBXNativeTarget "GoogleTagManagerDemo" */;
+			buildPhases = (
+				093A1B5F1C857333004409FE /* Sources */,
+				093A1B601C857333004409FE /* Frameworks */,
+				093A1B611C857333004409FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleTagManagerDemo;
+			productName = GoogleTagManagerDemo;
+			productReference = 093A1B631C857333004409FE /* GoogleTagManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		093A1B5B1C857333004409FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = xuzepei;
+				TargetAttributes = {
+					093A1B621C857333004409FE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 093A1B5E1C857333004409FE /* Build configuration list for PBXProject "GoogleTagManagerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 093A1B5A1C857333004409FE;
+			productRefGroup = 093A1B641C857333004409FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				093A1B621C857333004409FE /* GoogleTagManagerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		093A1B611C857333004409FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093A1B761C857333004409FE /* LaunchScreen.storyboard in Resources */,
+				093A1B731C857333004409FE /* Assets.xcassets in Resources */,
+				09B91C4E1C86BD8300E71250 /* GTM-PG7WXD in Resources */,
+				093A1B711C857333004409FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		093A1B5F1C857333004409FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B91C4B1C86975F00E71250 /* MyFunctionCallMacroHandler.m in Sources */,
+				093A1B6E1C857333004409FE /* ViewController.m in Sources */,
+				093A1B6B1C857333004409FE /* AppDelegate.m in Sources */,
+				093A1B681C857333004409FE /* main.m in Sources */,
+				09B91C481C8681B300E71250 /* MyFunctionCallTagHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		093A1B6F1C857333004409FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				093A1B701C857333004409FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		093A1B741C857333004409FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				093A1B751C857333004409FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		093A1B781C857333004409FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		093A1B791C857333004409FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		093A1B7B1C857333004409FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleTagManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleTagManagerDemo/Library",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.GoogleTagManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		093A1B7C1C857333004409FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleTagManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleTagManagerDemo/Library",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.GoogleTagManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		093A1B5E1C857333004409FE /* Build configuration list for PBXProject "GoogleTagManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093A1B781C857333004409FE /* Debug */,
+				093A1B791C857333004409FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093A1B7A1C857333004409FE /* Build configuration list for PBXNativeTarget "GoogleTagManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093A1B7B1C857333004409FE /* Debug */,
+				093A1B7C1C857333004409FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 093A1B5B1C857333004409FE /* Project object */;
+}

@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEC5791617AB9C8A06458D38F52255E7 /* Pods-GoogleTagManagerSwiftDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 690789D8C27322657B407C175E4884EE /* Pods-GoogleTagManagerSwiftDemo-dummy.m */; };
+		E6DC2EC8F01795E669AC45F4A6E594BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01EEB0BC3A1CED6839BB99A911BBFD8E /* GAITracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = Headers/Public/GAITracker.h; sourceTree = "<group>"; };
+		03A50D64672907563A248F507FBD4459 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProductAction.h; path = Headers/Public/GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		076F3E2AD1C203B7FBA1C178128F246C /* Pods-GoogleTagManagerSwiftDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GoogleTagManagerSwiftDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C56DF8D7BB3904F5F98F29F2DE68659 /* TAGDataLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGDataLayer.h; path = Headers/Public/TAGDataLayer.h; sourceTree = "<group>"; };
+		1D3A4F46141629881B7076227695E501 /* GAIFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIFields.h; path = Headers/Public/GAIFields.h; sourceTree = "<group>"; };
+		27F94B64CF1250028287906F70B82826 /* libPods-GoogleTagManagerSwiftDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleTagManagerSwiftDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		453787D16B1D8A62E3B3048FED7BA8F4 /* Pods-GoogleTagManagerSwiftDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleTagManagerSwiftDemo-frameworks.sh"; sourceTree = "<group>"; };
+		469B44691AA23F957E1C9E8D93F1E618 /* GAITrackedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = Headers/Public/GAITrackedViewController.h; sourceTree = "<group>"; };
+		4B74CE2A9289CF53D3793797FEA56B98 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceFields.h; path = Headers/Public/GAIEcommerceFields.h; sourceTree = "<group>"; };
+		56F21F751300EFF18938997F93FFC4FF /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProduct.h; path = Headers/Public/GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		580BA487B448E352FADC6578C5BD4D7E /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommercePromotion.h; path = Headers/Public/GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		690789D8C27322657B407C175E4884EE /* Pods-GoogleTagManagerSwiftDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoogleTagManagerSwiftDemo-dummy.m"; sourceTree = "<group>"; };
+		76CD0003ED03DB2672AB31CC0CD388BE /* Pods-GoogleTagManagerSwiftDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoogleTagManagerSwiftDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		81F120825FEB8C701B6E6CDAE1D7B5CC /* Pods-GoogleTagManagerSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleTagManagerSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		923C475C3EA5539300C90CAACDF79615 /* TAGLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGLogger.h; path = Headers/Public/TAGLogger.h; sourceTree = "<group>"; };
+		96B4388AD2BD51E1E8248B7833005259 /* GAILogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = Headers/Public/GAILogger.h; sourceTree = "<group>"; };
+		B97C321E05E0268B10A0659CEEA11421 /* Pods-GoogleTagManagerSwiftDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleTagManagerSwiftDemo-resources.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C10FE14AAF3B36BCE4092BD43F5770A3 /* TAGManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGManager.h; path = Headers/Public/TAGManager.h; sourceTree = "<group>"; };
+		C5C88E846BD7C58BE6D73445266F50E6 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGoogleAnalytics.a; path = Libraries/libGoogleAnalytics.a; sourceTree = "<group>"; };
+		D985220019728CB61D04B4706A43D1CA /* Pods-GoogleTagManagerSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleTagManagerSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F0290D6188B540F3CF207B1AFF94D4EB /* TAGContainerOpener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGContainerOpener.h; path = Headers/Public/TAGContainerOpener.h; sourceTree = "<group>"; };
+		F0A99933B79B4583D3B3A97396343D69 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIDictionaryBuilder.h; path = Headers/Public/GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		F26616A4059ADEB61D143123165DDCE2 /* GAI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = Headers/Public/GAI.h; sourceTree = "<group>"; };
+		F4C0FED91B23285DB1A3F3EE8B6B9DC9 /* TAGContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGContainer.h; path = Headers/Public/TAGContainer.h; sourceTree = "<group>"; };
+		FE0E3269B153BB25F33D026AC0E1466A /* libTagManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libTagManager.a; path = Libraries/libTagManager.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A744CB4E6C8D6E0EBE8D557337F3A203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6DC2EC8F01795E669AC45F4A6E594BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067E13F0DEA2E897DB1C2F2C5FAED096 /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				F26616A4059ADEB61D143123165DDCE2 /* GAI.h */,
+				F0A99933B79B4583D3B3A97396343D69 /* GAIDictionaryBuilder.h */,
+				4B74CE2A9289CF53D3793797FEA56B98 /* GAIEcommerceFields.h */,
+				56F21F751300EFF18938997F93FFC4FF /* GAIEcommerceProduct.h */,
+				03A50D64672907563A248F507FBD4459 /* GAIEcommerceProductAction.h */,
+				580BA487B448E352FADC6578C5BD4D7E /* GAIEcommercePromotion.h */,
+				1D3A4F46141629881B7076227695E501 /* GAIFields.h */,
+				96B4388AD2BD51E1E8248B7833005259 /* GAILogger.h */,
+				469B44691AA23F957E1C9E8D93F1E618 /* GAITrackedViewController.h */,
+				01EEB0BC3A1CED6839BB99A911BBFD8E /* GAITracker.h */,
+				A7ACE2DC658FB6F212B0D0A69B5D0B53 /* Frameworks */,
+			);
+			path = GoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		4317596C538857D1A35C4D3072BC54BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				067E13F0DEA2E897DB1C2F2C5FAED096 /* GoogleAnalytics */,
+				5DFB638D328625B5E9431BBA3EA0BAB5 /* GoogleTagManager */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		52BE0688C2C8BF92704D77497005E2B9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				812AA4D4BD0934F5A6FD128D8C4DA596 /* Pods-GoogleTagManagerSwiftDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5DFB638D328625B5E9431BBA3EA0BAB5 /* GoogleTagManager */ = {
+			isa = PBXGroup;
+			children = (
+				F4C0FED91B23285DB1A3F3EE8B6B9DC9 /* TAGContainer.h */,
+				F0290D6188B540F3CF207B1AFF94D4EB /* TAGContainerOpener.h */,
+				0C56DF8D7BB3904F5F98F29F2DE68659 /* TAGDataLayer.h */,
+				923C475C3EA5539300C90CAACDF79615 /* TAGLogger.h */,
+				C10FE14AAF3B36BCE4092BD43F5770A3 /* TAGManager.h */,
+				651B6C1CAD49ABBC0D533BC75B24D445 /* Frameworks */,
+			);
+			path = GoogleTagManager;
+			sourceTree = "<group>";
+		};
+		651B6C1CAD49ABBC0D533BC75B24D445 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE0E3269B153BB25F33D026AC0E1466A /* libTagManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4317596C538857D1A35C4D3072BC54BD /* Pods */,
+				ED32E42E702B13266A264C49B8DDFCAC /* Products */,
+				52BE0688C2C8BF92704D77497005E2B9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		812AA4D4BD0934F5A6FD128D8C4DA596 /* Pods-GoogleTagManagerSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				076F3E2AD1C203B7FBA1C178128F246C /* Pods-GoogleTagManagerSwiftDemo-acknowledgements.markdown */,
+				76CD0003ED03DB2672AB31CC0CD388BE /* Pods-GoogleTagManagerSwiftDemo-acknowledgements.plist */,
+				690789D8C27322657B407C175E4884EE /* Pods-GoogleTagManagerSwiftDemo-dummy.m */,
+				453787D16B1D8A62E3B3048FED7BA8F4 /* Pods-GoogleTagManagerSwiftDemo-frameworks.sh */,
+				B97C321E05E0268B10A0659CEEA11421 /* Pods-GoogleTagManagerSwiftDemo-resources.sh */,
+				81F120825FEB8C701B6E6CDAE1D7B5CC /* Pods-GoogleTagManagerSwiftDemo.debug.xcconfig */,
+				D985220019728CB61D04B4706A43D1CA /* Pods-GoogleTagManagerSwiftDemo.release.xcconfig */,
+			);
+			name = "Pods-GoogleTagManagerSwiftDemo";
+			path = "Target Support Files/Pods-GoogleTagManagerSwiftDemo";
+			sourceTree = "<group>";
+		};
+		A7ACE2DC658FB6F212B0D0A69B5D0B53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5C88E846BD7C58BE6D73445266F50E6 /* libGoogleAnalytics.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ED32E42E702B13266A264C49B8DDFCAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27F94B64CF1250028287906F70B82826 /* libPods-GoogleTagManagerSwiftDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B95AA00A0A0365CEF5C0A432EDCEE22 /* Pods-GoogleTagManagerSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF87563B6A468DA339EF4523099747FA /* Build configuration list for PBXNativeTarget "Pods-GoogleTagManagerSwiftDemo" */;
+			buildPhases = (
+				BA65DF6E6F938C86C730F67944F6A68D /* Sources */,
+				A744CB4E6C8D6E0EBE8D557337F3A203 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GoogleTagManagerSwiftDemo";
+			productName = "Pods-GoogleTagManagerSwiftDemo";
+			productReference = 27F94B64CF1250028287906F70B82826 /* libPods-GoogleTagManagerSwiftDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = ED32E42E702B13266A264C49B8DDFCAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B95AA00A0A0365CEF5C0A432EDCEE22 /* Pods-GoogleTagManagerSwiftDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA65DF6E6F938C86C730F67944F6A68D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC5791617AB9C8A06458D38F52255E7 /* Pods-GoogleTagManagerSwiftDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97A9A2635A367F5251DA0CFA462DB7F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D985220019728CB61D04B4706A43D1CA /* Pods-GoogleTagManagerSwiftDemo.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E062C9994EBB69D41B9E15A38C1F9D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81F120825FEB8C701B6E6CDAE1D7B5CC /* Pods-GoogleTagManagerSwiftDemo.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF87563B6A468DA339EF4523099747FA /* Build configuration list for PBXNativeTarget "Pods-GoogleTagManagerSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E062C9994EBB69D41B9E15A38C1F9D56 /* Debug */,
+				97A9A2635A367F5251DA0CFA462DB7F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
